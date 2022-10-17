@@ -209,7 +209,6 @@ func main() {
 	//s4 := NewServer4("xxxx", 1234, WithProtocol4("tcp1"), WithTimeout4(time.Minute), WithMaxConn4(100))
 	//fmt.Println(s4)
 
-
 	hh := WithProtocol4("tcp1")
-	fmt.Println(hh,reflect.TypeOf(hh))
+	fmt.Println(hh, reflect.TypeOf(hh))
 }
